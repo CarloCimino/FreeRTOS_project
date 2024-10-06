@@ -36,17 +36,6 @@ This repository contains a FreeRTOS-based project with several enhancements and 
      - **EDF**: Maximizes CPU utilization and handles tighter deadlines, but with increased context switches.
      - **RM**: Predictable, fixed priorities, but limited CPU utilization and more susceptible to sporadic tasks causing deadline misses.
 
-## Tools and Setup
-
-### Linux Setup:
-1. Install QEMU and ARM toolchain.
-2. Download and build the FreeRTOS source code and demo.
-3. Run FreeRTOS on QEMU using the provided makefiles.
-
-### Mac OS Setup:
-1. Use Homebrew to install the ARM GCC compiler and QEMU.
-2. Configure the environment and compile FreeRTOS with the provided tools.
-
 ## Directories:
 
 - The **FreeRTOS/Source** directory contains the FreeRTOS source code, along with its own readme file.
